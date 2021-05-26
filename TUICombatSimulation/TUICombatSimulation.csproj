@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="BestiaryData.cs" />
+    <Compile Remove="BestiaryParser.cs" />
+    <Compile Remove="Check.cs" />
+    <Compile Remove="CombatSimulation.cs" />
+    <Compile Remove="Damage.cs" />
+    <Compile Remove="DataTypes.cs" />
+    <Compile Remove="Dice.cs" />
+    <Compile Remove="IAction.cs" />
+    <Compile Remove="ICreature.cs" />
+    <Compile Remove="InitiativeTracker.cs" />
+    <Compile Remove="IObserver.cs" />
+    <Compile Remove="MonsterData.cs" />
+    <Compile Remove="MonsterFactory.cs" />
+    <Compile Remove="MonsterInstance.cs" />
+    <Compile Remove="PlayerInstance.cs" />
+    <Compile Remove="Skill.cs" />
+    <Compile Remove="Spell.cs" />
+    <Compile Remove="StrikeAction.cs" />
+    <Compile Remove="Traits.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PF2\PF2.csproj" />
+  </ItemGroup>
+
+</Project>
